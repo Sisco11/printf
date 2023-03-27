@@ -6,5 +6,4 @@ The \_printf() function is used to produce formatted output to the standard outp
 
 # **The Authors**
 
-Sisco Kogo
-More Argwings-Kodhek
+Sisco Kogo & More Argwings-Kodhek
