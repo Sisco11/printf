@@ -1,9 +1,3 @@
-// This code defines a function _printf which takes a string format and variable arguments.
-// It iterates over the format string, copying ordinary characters to a buffer
-// and processing conversion specifiers using helper functions.
-// The processed output is written to the standard output stream.
-// The function print_buffer prints the contents of the buffer if it exists.
-
 #include "main.h"
 
 void print_buffer(char buffer[], int *buff_ind);

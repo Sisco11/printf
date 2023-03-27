@@ -1,8 +1,3 @@
-// This code is a function that prints unsigned integers, octal and hexadecimal numbers in both lower and upper cases.
-// It takes in various parameters such as a list of arguments, buffer array to handle print, flag variables for calculating active flags,
-// width and precision specification, and size specifier.
-// It then uses these parameters to convert the unsigned number to the desired format and returns the number of characters printed.
-// The code also includes other helper functions such as "print_hexa" that is used to print both upper and lower case hexadecimal numbers.
 #include "main.h"
 
 /**
@@ -18,7 +13,7 @@
 
 int print_unsigned(va_list types, char buffer[],
 
-                   int flags, int width, int precision, int size)
+	int flags, int width, int precision, int size)
 
 {
 
@@ -30,7 +25,7 @@ int print_unsigned(va_list types, char buffer[],
 
     if (num == 0)
 
-        buffer[i--] = '0';
+	buffer[i--] = '0';
 
     buffer[BUFF_SIZE - 1] = '\0';
 
@@ -38,11 +33,12 @@ int print_unsigned(va_list types, char buffer[],
 
     {
 
-        buffer[i--] = (num % 10) + '0';
+	buffer[i--] = (num % 10) + '0';
 
-        num /= 10;
+	num /= 10;
+    
     }
-
+    
     i++;
 
     return (write_unsgnd(0, i, buffer, flags, width, precision, size));
@@ -61,7 +57,7 @@ int print_unsigned(va_list types, char buffer[],
 
 int print_octal(va_list types, char buffer[],
 
-                int flags, int width, int precision, int size)
+	int flags, int width, int precision, int size)
 
 {
 
@@ -77,17 +73,16 @@ int print_octal(va_list types, char buffer[],
 
     if (num == 0)
 
-        buffer[i--] = '0';
+	buffer[i--] = '0';
 
     buffer[BUFF_SIZE - 1] = '\0';
 
     while (num > 0)
 
     {
+	buffer[i--] = (num % 8) + '0';
 
-        buffer[i--] = (num % 8) + '0';
-
-        num /= 8;
+	num /= 8;
     }
 
     if (flags & F_HASH && init_num != 0)

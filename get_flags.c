@@ -1,7 +1,3 @@
-// This code defines the function "get_flags" that calculates active flags based on a formatted string.
-// It loops through the string and checks for specific flag characters.
-// If it finds one, it sets the corresponding bit in the flags integer.
-// The final flags integer is returned.
 #include "main.h"
 
 /**

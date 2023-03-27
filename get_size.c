@@ -1,7 +1,3 @@
-// This code defines the function get_size which is used to extract the size modifier from a
-// format string in order to determine the appropriate data type for the corresponding argument.
-// The function takes a formatted string and the current position as input,
-// and returns the size of the modifier found. The size can be either S_LONG, S_SHORT, or 0 if no size modifier is present.
 #include "main.h"
 
 /**

@@ -1,5 +1,3 @@
-/*To go into the test folder after compilation*/
-
 #include <unistd.h>
 
 // _putchar - function to return character to stdout

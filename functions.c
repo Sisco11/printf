@@ -1,8 +1,3 @@
-// This code that includes several functions for printing characters, strings, integers, and binary numbers.
-// Each function takes a set of arguments, including a variable argument list, and formats and prints the input accordingly.
-// The code uses several flags to handle special formatting cases such as padding, precision, and sign handling.
-// The functions return the number of characters printed.
-
 #include "main.h"
 
 /**
@@ -18,7 +13,7 @@
 
 int print_char(va_list types, char buffer[],
 
-               int flags, int width, int precision, int size)
+	int flags, int width, int precision, int size)
 
 {
 
@@ -40,7 +35,7 @@ int print_char(va_list types, char buffer[],
 
 int print_string(va_list types, char buffer[],
 
-                 int flags, int width, int precision, int size)
+	int flags, int width, int precision, int size)
 
 {
 
@@ -214,7 +209,7 @@ int print_int(va_list types, char buffer[],
 
 int print_binary(va_list types, char buffer[],
 
-                 int flags, int width, int precision, int size)
+        int flags, int width, int precision, int size)
 
 {
 

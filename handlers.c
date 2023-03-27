@@ -1,8 +1,3 @@
-// This is code that defines four functions to handle writing of characters, numbers, and unsigned numbers.
-// The functions are handle_write_char, write_number, write_num, and write_unsgnd.
-// They take in various parameters such as flags, width, precision, size, and buffer to format and write characters or numbers to the standard output.
-// The code includes the main.h header file which presumably contains definitions of various constants and macros used throughout the program.
-
 #include "main.h"
 
 /**

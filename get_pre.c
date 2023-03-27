@@ -1,7 +1,3 @@
-// The code defines the function get_precision which calculates the precision for printing according to the format string.
-//  If the format specifies a precision, the function parses it and returns the value.
-//  If the precision is not specified, the function returns -1.
-//  The precision can be either a number or an asterisk indicating that the value should be obtained from the variadic argument list.
 #include "main.h"
 
 /**

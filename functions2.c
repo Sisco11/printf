@@ -1,10 +1,3 @@
-// This is code that defines four functions used for printing formatted output: print_pointer(), print_non_printable(), print_reverse(), and print_rot13string().
-// print_pointer() takes a void pointer as a parameter and prints its value in hexadecimal format. If the pointer is NULL, it prints "(nil)".
-// print_non_printable() takes a string as a parameter and prints it, replacing non-printable characters with their hexadecimal values.
-// print_reverse() takes a string as a parameter and prints it in reverse order.
-// print_rot13string() takes a string as a parameter and applies the ROT13 substitution cipher to it, printing the result.
-// All of these functions take several additional parameters, such as a buffer array to handle the print, flag variables to calculate active flags, width and precision specifications, and size specifiers.
-// They all return the number of characters printed.
 #include "main.h"
 
 /**

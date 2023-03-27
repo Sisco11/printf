@@ -1,7 +1,3 @@
-// This code defines the function get_width which takes a formatted string format,
-// a pointer i and a variable arguments list list.The function calculates and returns the width of the field to be printed.
-// The width can be explicitly specified in the format string,
-// or passed as an argument using the *character.If no width is specified, the function returns 0.
 #include "main.h"
 
 /**

@@ -1,11 +1,3 @@
-// This code defines a function that prints an argument based on its type.
-// It uses a format string and a list of arguments to print the specified value.
-// The function iterates through the format string and based on the type specifier,
-// calls a corresponding function to print the argument. If the type specifier is not recognized,
-//  it prints the "%" character followed by the unrecognized character.
-//  It also handles optional flags, width, precision, and size specifiers.
-// The printed character count is returned.
-
 #include "main.h"
 /**
  * handle_print - Prints an argument based on its type
